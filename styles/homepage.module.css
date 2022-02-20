@@ -1,0 +1,83 @@
+.ContainerAsisten {
+    display: flex;
+    background-color: aliceblue;
+}
+
+.ContainerAsistenLeft {
+    width: 55%;
+    text-align: left;
+    padding: 2em;
+
+}
+
+.BtnPreviewAsisten {
+    padding: 0.4em;
+    margin-right: 0.3em;
+    border-radius: 10px;
+    border: black solid 0.1px;
+    background-color: transparent;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.BtnPreviewAsistenNotSelected {
+    margin: 0.3em;
+    padding: 0.5em;
+    margin-right: 0.3em;
+    border-radius: 10px;
+    border: black solid 0.1px;
+    background-color: transparent;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.BtnPreviewAsistenSelected {
+    margin: 0.3em;
+    padding: 0.5em;
+    margin-right: 0.3em;
+    border-radius: 10px;
+    border: black solid 0.1px;
+    background-color: black;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.ContainerButtonPreviewAsisten {
+    /* text-align: center; */
+}
+
+.ContainerAsistenRight {
+    width: 40%;
+    align-items: flex-end;
+}
+
+.PreviewHeadAsisten {
+    padding-top: 0.4em;
+    text-align: end;
+    font-size: 36px;
+}
+
+.ContainerAnggota {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-content: center;
+    padding-top: 4em;
+}
+
+
+
+.ImageHomeAsisten {
+    height: 13em;
+    width: 110%;
+
+}
