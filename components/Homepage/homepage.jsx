@@ -1,6 +1,7 @@
 import styles from '../../styles/homepage.module.css';
 import { Button, ButtonGroup,ToggleButton } from 'react-bootstrap';
 import {useState} from 'react';
+import Image from 'next/image';
 export default function homepage() {
 
     const [checked, setChecked] = useState(false);
@@ -69,18 +70,15 @@ export default function homepage() {
                         </div>
                     </div>
                     
-                    <div className={styles.ContainerAsistenRight} class="container-md " >
+                    <div className={styles.ContainerAsistenRight}>
                         <h1 className={styles.PreviewHeadAsisten}>{asisten[ID-1].divisi}</h1>
                         <div className={styles.ContainerAnggota}>
                         {anggota.map((item) => (
-                                <span class="p-3">
-                                <img className={styles.ImageHomeAsisten} src={item.Photo} alt="" />
-
-                                <button type="button" class="btn-list-asisten btn btn-light">{item.Nama}</button>
-                            </span>))
-                        }
-                            
-                         
+                                <span className="p-3">
+                                    <img className={styles.ImageHomeAsisten} src={item.Photo} alt="" />
+                                    <button type="button" class="btn-list-asisten btn btn-light">{item.Nama}</button>
+                                </span>
+                            ))}
                         </div>
                     </div>
                 </div>
