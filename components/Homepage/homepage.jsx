@@ -1,6 +1,6 @@
 import styles from '../../styles/homepage.module.css';
 import { Button, ButtonGroup,ToggleButton } from 'react-bootstrap';
-import {useState} from 'react';
+import {useState} from 'react-hooks';
 import Image from 'next/image';
 export default function homepage() {
 
@@ -41,8 +41,8 @@ export default function homepage() {
         <>
             <div class="p-2">
                 <div className={styles.ContainerAsisten} class=" p-2 container-fluid rounded" >
-                    <div  className={styles.ContainerAsistenLeft} class="container-sm" >
-                        <h1 class="text-sm-start">Our Assistant</h1>
+                    <div  className={styles.ContainerAsistenLeft}  >
+                        <h1 className="text-sm-start">Our Assistant</h1>
                         <p>{asisten[ID-1].deskripsi_1}</p>
 
                         <h6></h6>

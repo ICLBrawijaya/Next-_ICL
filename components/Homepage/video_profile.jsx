@@ -9,7 +9,7 @@ export default function video_profile() {
                     <div className="carousel-item active p-4" data-bs-interval="99999999999999">
                         <div className={styles.carouselheight}>
                             <div className='ratio ratio-16x9' >
-                                <iframe width="90%" height="530px" src="https://www.youtube.com/embed/xHlx3rx5Bew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="90%" height="530px" src="https://www.youtube.com/embed/xHlx3rx5Bew" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
                             <div className="carousel-caption d-none d-md-block">
                                     <h5 className='text-light'>Video Profil Industrial Computer Laboratory</h5>        
