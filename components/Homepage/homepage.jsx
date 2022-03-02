@@ -74,10 +74,12 @@ export default function homepage() {
                         <h1 className={styles.PreviewHeadAsisten}>{asisten[ID-1].divisi}</h1>
                         <div className={`d-flex p-3${styles.ContainerAnggota}`}>
                         {anggota.map((item) => (
-                                <span  key={item.ID} className={`p-3`}>
-                                    <img className={`img-fluid  p-2 ${styles.ImageHomeAsisten}`} src={item.Photo} alt="" />
-                                    <button type="button" className={`btn btn-secondary p-2 ${styles.btn_list_asisten}`}>{item.Nama}</button>
-                                    <br></br>
+                                <span  key={item.ID} className={`p-3 mx-auto`}>
+                                    <div className={`d-block mx-auto`}>
+                                        <img className={`img-fluid  p-2 ${styles.ImageHomeAsisten}`} src={item.Photo} alt="" />
+                                        <button type="button" className={`btn btn-secondary p-2 ${styles.btn_list_asisten}`}>{item.Nama}</button>
+                                        <br></br>
+                                    </div>
                                 </span>
                             ))}
                         </div>
