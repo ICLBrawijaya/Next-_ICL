@@ -77,7 +77,14 @@
 
 
 .ImageHomeAsisten {
-    height: 13em;
-    width: 110%;
 
+    justify-content: center;
+    height: 13em;
+    width: 100%;
+
+}
+
+.btn_list_asisten {
+    align-self: center;
+    font-size: 12px;
 }

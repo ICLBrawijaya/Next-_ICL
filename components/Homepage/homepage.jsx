@@ -1,12 +1,12 @@
 import styles from '../../styles/homepage.module.css';
 import { Button, ButtonGroup,ToggleButton } from 'react-bootstrap';
-import {UseState} from 'react';
+import React,{useState} from 'react';
 import Image from 'next/image';
 export default function homepage() {
 
-    const [Checked, setChecked] = UseState(false);
-    const [radioValue, setRadioValue] = UseState('1');
-    const [ID,setID]=UseState(1)
+    const [Checked, setChecked] = useState(false);
+    const [radioValue, setRadioValue] = useState('1');
+    const [ID,setID]=useState(1)
 
     const asisten=[
         {ID:1, divisi:"Research and Development", Anggota:[{Nama:"Hafizh Maulana",Photo:"https://drive.google.com/uc?export=view&id=1R8r5DOOu1FdoeB6Djk3cFs1BoBbut5d8"},{Nama:"Addis Rezha",Photo:"https://drive.google.com/uc?export=view&id=1GA_YIM77wvEs39agIaIhI3qX4Px8pfXE"},{Nama:"Maulana Ahmad Fahreza",Photo:"https://drive.google.com/uc?export=view&id=1GdC2GsOT6Wx_u6ECxkBp6khXCb89bHdy"}],
@@ -72,11 +72,12 @@ export default function homepage() {
                     
                     <div className={styles.ContainerAsistenRight}>
                         <h1 className={styles.PreviewHeadAsisten}>{asisten[ID-1].divisi}</h1>
-                        <div className={styles.ContainerAnggota}>
+                        <div className={`d-flex p-3${styles.ContainerAnggota}`}>
                         {anggota.map((item) => (
-                                <span  key={item.ID} className="p-3">
-                                    <img className={styles.ImageHomeAsisten} src={item.Photo} alt="" />
-                                    <button type="button" className="btn-list-asisten btn btn-light">{item.Nama}</button>
+                                <span  key={item.ID} className={`p-3`}>
+                                    <img className={`img-fluid  p-2 ${styles.ImageHomeAsisten}`} src={item.Photo} alt="" />
+                                    <button type="button" className={`btn btn-secondary p-2 ${styles.btn_list_asisten}`}>{item.Nama}</button>
+                                    <br></br>
                                 </span>
                             ))}
                         </div>

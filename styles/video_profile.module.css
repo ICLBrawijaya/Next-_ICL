@@ -5,3 +5,8 @@
 .BackgroundProfile {
     background-color: #0A142F;
 }
+
+.auto {
+    width: auto;
+    height: auto;
+}

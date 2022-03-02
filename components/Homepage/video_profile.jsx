@@ -2,15 +2,16 @@ import styles from '../../styles/video_profile.module.css';
 export default function video_profile() {
     return (
         <>
-        <div className={styles.BackgroundProfile} >
-            <h1 className='p-2 text-light text-center'><b>VIDEO PROFILE</b></h1>
+        <div className={`d-lg-block ${styles.BackgroundProfile}`} >
+            <h1 className='p-1 text-light text-center'><b>VIDEO PROFILE</b></h1>
             <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
-                    <div className="carousel-item active p-4" data-bs-interval="99999999999999">
+                    <div className="carousel-item active p-3" data-bs-interval="99999999999999">
                         <div className={styles.carouselheight}>
-                            <div className='ratio ratio-16x9' >
-                                <iframe width="90%" height="530px" src="https://www.youtube.com/embed/f51KEv1rySI?autoplay=1&mute=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <div className={`d-flex ratio ratio-21x9`} >
+                                <iframe width="100%" height="520px" src="https://www.youtube.com/embed/f51KEv1rySI?autoplay=1&mute=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
+                            <br></br>
                             <div className="carousel-caption d-none d-md-block">
                                     <h5 className='text-light'>Video Profil Industrial Computer Laboratory</h5>        
                             </div>
