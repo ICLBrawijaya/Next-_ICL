@@ -1,15 +1,15 @@
 import styles from '../../styles/homepage.module.css';
 import { Button, ButtonGroup,ToggleButton } from 'react-bootstrap';
-import {useState} from 'react-hooks';
+import {useState} from 'react';
 import Image from 'next/image';
 export default function homepage() {
 
-    const [checked, setChecked] = useState(false);
+    const [Checked, setChecked] = useState(false);
     const [radioValue, setRadioValue] = useState('1');
     const [ID,setID]=useState(1)
 
     const asisten=[
-        {ID:1, divisi:"Research and Development", Anggota:[{Nama:"Hafizh Maulana",Photo:""},{Nama:"Addis Rezha",Photo:"https://lh3.googleusercontent.com/a-/AOh14GifA6jqEB1_hymVayerCySxDQ2cQHlYv0RFoxcP=s28-c-k-no"},{Nama:"Maulana Reza",Photo:""}],
+        {ID:1, divisi:"Research and Development", Anggota:[{Nama:"Hafizh Maulana",Photo:"https://drive.google.com/uc?export=view&id=1R8r5DOOu1FdoeB6Djk3cFs1BoBbut5d8"},{Nama:"Addis Rezha",Photo:"https://drive.google.com/uc?export=view&id=1GA_YIM77wvEs39agIaIhI3qX4Px8pfXE"},{Nama:"Maulana Ahmad Fahreza",Photo:"https://drive.google.com/uc?export=view&id=1GdC2GsOT6Wx_u6ECxkBp6khXCb89bHdy"}],
         deskripsi_1 : "RND Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis dolorum laudantium, facere excepturi  officiis voluptates. Quod culpa optio velit sint voluptatum, illo suscipit dolores, esse possimus  eius  sit, doloremque vel?",
         deskripsi_2 : "RND Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis dolorum laudantium, facere excepturi  officiis voluptates. Quod culpa optio velit sint voluptatum, illo suscipit dolores, esse possimus  eius  sit, doloremque vel?"},
         {ID:2, divisi:"Head Resource Management", Anggota:[{Nama:"Hafizh Maulana",Photo:""},{Nama:"Addis Rezha",Photo:""},{Nama:"Maulana Reza",Photo:""}],
