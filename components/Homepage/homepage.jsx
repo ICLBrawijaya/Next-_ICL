@@ -39,8 +39,8 @@ export default function homepage() {
     const anggota=asisten[ID-1].Anggota
     return (
         <>
-            <div class="p-2">
-                <div className={styles.ContainerAsisten} class=" p-2 container-fluid rounded" >
+            <div className="p-2">
+                <div className={`p-2 container-fluid rounded ${styles.ContainerAsisten}`} > 
                     <div  className={styles.ContainerAsistenLeft}  >
                         <h1 className="text-sm-start">Our Assistant</h1>
                         <p>{asisten[ID-1].deskripsi_1}</p>
@@ -76,7 +76,7 @@ export default function homepage() {
                         {anggota.map((item) => (
                                 <span className="p-3">
                                     <img className={styles.ImageHomeAsisten} src={item.Photo} alt="" />
-                                    <button type="button" class="btn-list-asisten btn btn-light">{item.Nama}</button>
+                                    <button type="button" className="btn-list-asisten btn btn-light">{item.Nama}</button>
                                 </span>
                             ))}
                         </div>
