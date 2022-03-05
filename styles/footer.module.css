@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans&display=swap');
+
+
+.footer {
+    /* position: fixed; */
+    bottom: 0px;
+    width: 100%;
+    background: #0A142F;
+    padding: 50px 50px 40px 50px
+}
+
+.main_content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+}
+
+.left {
+    margin-left: 114px;
+    margin-top: 35px;
+}
+
+.left img {
+    width: 30%;
+}
+
+.left h3 {
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px
+}
+
+.center {
+
+    width: fit-content;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+.center h5 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.center li {
+    list-style: none;
+}
+
+.center a {
+    font-size: 12.45px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right {
+    margin-right: 140px;
+}
+
+.right .img_rounded {
+    width: 500px;
+    border-radius: 10px;
+    background: #555D72;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 27px;
+    height: 237px;
+}
+
+.right h5 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.btn_secondary {
+    background-color: #192F6C !important;
+    width: 15% !important;
+}
+
+.bottom h3 {
+    font-size: 12.45px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bottom hr {
+    height: 1.5px;
+    color: #fff;
+    width: 80%;
+}
+
+.textform {
+    height: 100px;
+}
+
+
+
+@media screen and (max-width: 975px) {
+    .footer {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .main_content {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .main_content .box {
+        margin: 5px 0;
+    }
+
+    .left img {
+        width: 9%;
+    }
+
+    .right .img_rounded {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .btn_secondary {
+        width: 80px !important;
+    }
+}

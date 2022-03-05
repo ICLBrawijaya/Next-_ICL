@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans&display=swap');
+
+
+
+.mynavbar {
+    background:
+        linear-gradient(180deg, #0A142F -20.49%, rgba(10, 20, 47, 0.46) 24.31%),
+        url('https://drive.google.com/uc?export=view&id=13So-czAuYAfVSlj-Lzhxpm74lcZWVsa7') no-repeat center center / cover;
+    ;
+}
+
+.navbar .container-fluid {
+    padding-left: 110px;
+}
+
+.navbar .container-fluid .logo {
+    margin-top: 8px;
+}
+
+.navbar .container-fluid .logo img {
+    width: 20%;
+}
+
+.navbar .container-fluid .logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 250px
+}
+
+.navbar .container-fluid .logo h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    margin-left: 11px;
+    margin-top: 7px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar .collapse .navbar-nav {
+    margin-right: 110px;
+}
+
+.navbar .collapse .navbar-nav li {
+    list-style: none;
+}
+
+.navbar .collapse .navbar-nav a {
+    white-space: nowrap;
+    display: flex;
+    padding: 1em;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .collapse .navbar-nav .nav-item.active .nav-link,
+.navbar .collapse .navbar-nav .nav-item:hover .nav-link {
+    color: #017CC2;
+}
+
+.containerHeadline {
+    position: relative;
+    padding: 20% 13%;
+}
+
+.containerHeadline h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        background-color: #333333;
+    }
+}

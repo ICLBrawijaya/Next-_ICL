@@ -10,3 +10,8 @@
     width: auto;
     height: auto;
 }
+
+.tulisan_video {
+    text-align: center;
+    font-family: 'Optima';
+}
