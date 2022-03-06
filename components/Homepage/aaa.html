@@ -1,0 +1,48 @@
+<span className={styles.logo}>
+    <a className={`navbar-brand ${styles.logo}`} href="#">
+        <img className={styles.gambarlogo}
+            src="https://drive.google.com/uc?export=view&id=1kS8JZaWXJ1HpLgSAcblMeMz_bd9SuQAG" alt="" />
+        <a>Industrial <br></br> Computer Laboratory</a>
+    </a>
+</span>
+
+
+<nav className={` fixed-top navbar-expand-lg navbar-light py-3 px-2 ${styles.navbar}`}>
+    <div className={styles.bgnavbar}>
+        <div className={`container-fluid ${styles.container_fluid}`}>
+            <a class="navbar-brand" href="#">Navbar w/ text</a>
+
+            <button className={`navbar-toggler`} type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span className={`navbar-toggler-icon`}></span>
+            </button>
+
+
+            <div className={`collapse navbar-collapse ${styles.collapse}`} id="navbarNavDropdown">
+
+                <ul className={`navbar-nav ms-auto ${styles.navbar_nav}`}>
+                    <li className={`nav-item ${styles.nav_item}`}>
+                        <a className={`nav-link ${styles.nav_link}`} href="#">Event</a>
+                    </li>
+                    <li className={`nav-item ${styles.nav_item}`}>
+                        <a className={`nav-link ${styles.nav_link}`} href="#">ICL Blog</a>
+                    </li>
+                    <li className={`nav-item dropdown ${styles.nav_item}`}>
+                        <a className={`nav-link dropdown-toggle ${styles.nav_link}`} href="#"
+                            id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Praktikum
+                        </a>
+                        <ul className={`dropdown-menu `} aria-labelledby="navbarDropdownMenuLink">
+                            <li><a className={`dropdown-item text-dark `} href="#">Praktikum Alprog</a></li>
+                            <li><a className={`dropdown-item text-dark `} href="#">Praktikum APS</a></li>
+                        </ul>
+                    </li>
+                    <li className={`nav-item ${styles.nav_item}`}>
+                        <a className={`nav-link ${styles.nav_link}`} href="#">Join Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

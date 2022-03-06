@@ -2,8 +2,8 @@ import styles from '../../styles/video_profile.module.css';
 export default function video_profile() {
     return (
         <>
-        <div className={`d-lg-block ${styles.BackgroundProfile}`} >
-            <h1 className={`p-1 text-light text-center ${styles.tulisan_video}`}><b>VIDEO PROFILE</b></h1>
+        <div className={`d-lg-block p-2 ${styles.BackgroundProfile}`} >
+            <h1 className={`py-3 text-light text-center ${styles.tulisan_video}`}><b>VIDEO PROFILE</b></h1>
             <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active p-3" data-bs-interval="99999999999999">

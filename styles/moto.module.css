@@ -1,0 +1,21 @@
+.containerHeadline {
+    position: relative;
+    padding: 30% 13%;
+}
+
+.containerHeadline h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.mynavbar {
+    background:
+        linear-gradient(180deg, #0A142F -20.49%, rgba(10, 20, 47, 0.46) 24.31%),
+        url('https://drive.google.com/uc?export=view&id=13So-czAuYAfVSlj-Lzhxpm74lcZWVsa7') no-repeat center center / cover;
+    ;
+    margin-bottom: 0.5%;
+}

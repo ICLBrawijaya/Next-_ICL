@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans&display=swap');
 
 
+
 .footer {
     /* position: fixed; */
     bottom: 0px;
@@ -11,7 +12,8 @@
 
 .main_content {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+    padding: 1% 1% 1% 10%;
 }
 
 .main-content .box {
@@ -19,12 +21,12 @@
 }
 
 .left {
-    margin-left: 114px;
+
     margin-top: 35px;
 }
 
 .left img {
-    width: 30%;
+    width: 28%;
 }
 
 .left h3 {
@@ -37,7 +39,6 @@
 
 .center {
 
-    width: fit-content;
     margin-top: 35px;
     margin-right: 20px;
 }

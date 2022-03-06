@@ -11,13 +11,19 @@ export default function footer() {
                 <h3>Industrial <br></br> Computer Laboratory</h3>
                 </div>
                 <div className={styles.center}>
-                    <h5>Learn More</h5>
-                    <a href="#">About ICL</a><br></br>
-                    <a href="#">Praktikum</a><br></br>
-                    <a href="#">Pengabdian</a><br></br>
-                    <a href="#">Prestasi</a><br></br>
-                    <a href="#">Alumni</a><br></br>
-                    <a href="#">Kontak Kami</a><br></br>
+                    <div class="container">
+                        <h5>Learn More</h5>
+                        <div class="row">
+                            <a href="#">About ICL</a>
+                            <a href="#">Praktikum</a>
+                            <a href="#">Pengabdian</a>
+                        </div>
+                        <div class="row">
+                            <a href="#">About ICL</a>
+                            <a href="#">Praktikum</a>
+                            <a href="#">Pengabdian</a>
+                        </div>
+                    </div>
                 </div>
                 <div className={styles.right}>
                     <div className={styles.img_rounded}>
