@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans&display=swap');
+
+
+.container_utama {
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.judul h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 25px;
+    text-align: end;
+}
+
+.visi {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.visi h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 11px;
+    margin-top: 7px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.visi p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 11px;
+    margin-top: 7px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.misi {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.misi h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 11px;
+    margin-top: 7px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+.misi li {
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 11px;
+    margin-top: 7px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.footercard {
+    height: 1px;
+    background-color: turquoise;
+    border-color: transparent;
+    margin-bottom: 2%;
+}

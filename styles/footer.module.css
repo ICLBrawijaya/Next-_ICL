@@ -12,7 +12,7 @@
 
 .main_content {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     padding: 1% 1% 1% 10%;
 }
 
@@ -21,8 +21,7 @@
 }
 
 .left {
-
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 .left img {
@@ -38,9 +37,9 @@
 }
 
 .center {
-
-    margin-top: 35px;
-    margin-right: 20px;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 25px;
 }
 
 .center h5 {
@@ -62,8 +61,19 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.center a:hover {
+    font-size: 12.45px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .right {
-    margin-right: 140px;
+    align-self: flex-start;
+    margin-top: 25px;
+    margin-right: 10%;
+    max-width: 600px;
 }
 
 .right .img_rounded {
@@ -106,6 +116,7 @@
 
 .textform {
     height: 100px;
+
 }
 
 

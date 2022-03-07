@@ -12,12 +12,12 @@ export default function header() {
                     <h3>Industrial <br></br> Computer Laboratory</h3>
                 </a>
             </span>
-            <button className= {`navbar-toggler mx-3`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <button className= {`navbar-toggler mx-3`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className={`navbar-toggler-icon`}></span>
             </button>
-            <div className={`collapse navbar-collapse  ${styles.collapse}`}
+            <div className={`collapse navbar-collapse rounded  ${styles.collapse}`}
             id="navbarNavDropdown">
-            <ul className={`navbar-nav ms-auto mx-auto ${styles.navbar_nav}`}>
+            <ul className={`navbar-nav ms-auto  ${styles.navbar_nav}`}>
                 <li className={`nav-item ${styles.nav_item}`}>
                     <a className={`nav-link ${styles.nav_link}`} href="#">Event</a>
                 </li>

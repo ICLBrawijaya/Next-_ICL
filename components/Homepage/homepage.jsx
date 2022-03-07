@@ -78,11 +78,10 @@ export default function homepage() {
     const anggota=asisten[ID-1].Anggota
     return (
         <>
-            <div className="p-2">
-                <div className={`p-2 container-fluid rounded ${styles.ContainerAsisten}`} > 
-                    <div  className={styles.ContainerAsistenLeft}  >
-                        <h1 className="text-sm-start">Our Assistant</h1>
-                        <p>{asisten[ID-1].deskripsi_1}</p>
+            <div className={`row g-0 p-4 ${styles.ContainerAsisten}`}>
+                <div  className={`col-sm-6 col-md-5`}  >
+                    <h1 className="text-sm-start">Our Assistant</h1>
+                    <p>{asisten[ID-1].deskripsi_1}</p>
 
                         <h6></h6>
                         <p>{asisten[ID-1].deskripsi_2}</p>
@@ -108,26 +107,28 @@ export default function homepage() {
                             
                         </div>
                     </div>
-                    
-                    <div className={styles.ContainerAsistenRight}>
-                        <h1 className={styles.PreviewHeadAsisten}>{asisten[ID-1].divisi}</h1>
-                        <div className={` ${styles.ContainerAnggota}`}>
-                        {anggota.map((item) => (
-                                <span  key={item.ID} className={`mx-auto p-1`}>
-                                    <div className={`d-block mx-auto ${styles.container_per_anggota}`}>
-                                        <img className={`img-fluid p-2 ${styles.ImageHomeAsisten} `} src={item.Photo} alt="" />
-                                        <br></br>
-                                    </div>
-                                    <div className={`d-grid gap-2`}>
-                                    <button type="button" className={`btn btn-secondary ${styles.btn_list_asisten}`}><>{item.Nama}</></button>
-                                    </div>
-                                    
-                                </span>
-                            ))}
+                        <div className={`col-6 col-md-7 ms-auto px-4 ${styles.ContainerAsistenRight }`}>
+                            <div className={`${styles.containerright}`}>
+                                <h1 className={styles.PreviewHeadAsisten}>{asisten[ID-1].divisi}</h1>
+                            
+                                <div className={` ${styles.ContainerAnggota}`}>
+                                {anggota.map((item) => (
+                                        <span  key={item.ID} className={`mx-auto p-1`}>
+                                            <div className={`d-block mx-auto ${styles.container_per_anggota}`}>
+                                                <img className={`img-fluid p-2 ${styles.ImageHomeAsisten} `} src={item.Photo} alt="" />
+                                                <br></br>
+                                            </div>
+                                            <div className={`d-grid gap-2`}>
+                                            <button type="button" className={`btn btn-secondary ${styles.btn_list_asisten}`}><>{item.Nama}</></button>
+                                            </div>
+                                            
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                
         </>
     )
 }

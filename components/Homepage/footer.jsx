@@ -3,29 +3,43 @@ export default function footer() {
     return (
     <>
         <footer className={styles.footer}>
-            <div className={styles.main_content}>
-                <div className={styles.left}>
+            <div className={`row align-items-center ${styles.main_content}`}>
+                <div className={`col ${styles.left}`}>
                     <a href="#">
                         <img className={styles.logo} src="https://drive.google.com/uc?export=view&id=1kS8JZaWXJ1HpLgSAcblMeMz_bd9SuQAG" alt=""/>
                     </a>
                 <h3>Industrial <br></br> Computer Laboratory</h3>
                 </div>
-                <div className={styles.center}>
-                    <div class="container">
+                <div className={`col ${styles.center}`}>
+                    <div className={`container`}>
                         <h5>Learn More</h5>
-                        <div class="row">
-                            <a href="#">About ICL</a>
-                            <a href="#">Praktikum</a>
-                            <a href="#">Pengabdian</a>
-                        </div>
-                        <div class="row">
-                            <a href="#">About ICL</a>
-                            <a href="#">Praktikum</a>
-                            <a href="#">Pengabdian</a>
+                        <div className={`row`}>
+                            <div className={`col`}>
+                                <div className={`row`}>
+                                    <a href="#">About ICL</a>
+                                </div>
+                                <div className={`row`}>
+                                    <a href="#">Praktikum</a>
+                                </div>
+                                <div className={`row`}>
+                                    <a href="#">Pengabdian</a>
+                                </div>
+                            </div>
+                            <div className={`col`}>
+                                <div className={`row`}>
+                                    <a href="#">Prestasi</a>
+                                </div>
+                                <div className={`row`}>
+                                    <a href="#">Alumni</a>
+                                </div>
+                                <div className={`row`}>
+                                    <a href="#">Kontak</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className={styles.right}>
+                <div className={`col ${styles.right}`}>
                     <div className={styles.img_rounded}>
                         <form>
                             <div className={`mb-3`}>

@@ -32,7 +32,7 @@
 }
 
 .navbar .collapse .navbar_nav {
-    margin-right: 110px;
+    margin-right: 2%;
 }
 
 .navbar .collapse .navbar_nav li {
@@ -53,7 +53,7 @@
 .navbar .collapse .navbar_nav a:hover {
     /* white-space: nowrap;s */
 
-    padding: 1em;
+    /* padding: 1em; */
     font-size: 16px;
     color: #017CC2;
     text-decoration: none;
@@ -69,22 +69,33 @@
 .container_fluid {
     margin: 1% 1% 1% 1%;
     padding: 1% 0% 1% 0%;
+    opacity: 0.3;
+
 
 }
 
 .container_fluid:hover {
     margin: 1% 1% 1% 1%;
+    /* padding: 1% 0% 1% 0%; */
+    background-image: linear-gradient(to bottom, rgba(10, 20, 47, 0.7), rgba(10, 20, 47, 0.3));
+    /* border-radius: 2%; */
+    opacity: 1;
+}
+
+.container_fluid:isactive {
+    margin: 1% 1% 1% 1%;
     padding: 1% 0% 1% 0%;
     background-image: linear-gradient(to bottom, rgba(10, 20, 47, 0.7), rgba(10, 20, 47, 0.3));
     /* border-radius: 2%; */
+    opacity: 1;
 }
 
 .collapse {
     text-align: end;
-    margin-left: 50%;
+
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
     .navbar {
         background-color: #333333;
     }
