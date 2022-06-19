@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.background{
+    background: 
+    linear-gradient(180deg, rgba(0,0,0,0.8) -20.49%, rgba(0,0,0,0.8)50%),
+    url('./Asset/DSC00001.JPG') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.box {
+    position: relative;
+    width: 400px;
+    background-color: white;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin:  0 auto;
+    border-radius: 15px; 
+    box-shadow: 0 10px 10px 10px rgb(0, 0, 0, .2);
+}
+
+.header {
+    background: 
+    linear-gradient(180deg, #03050a -20.49%, rgba(0, 0, 2, 0.46) 24.31%),
+    url('./Asset/DSC00001.JPG') no-repeat center center / cover ;
+    padding: 90px 30px;
+    color: white;
+    border-radius: 15px 15px 0 0;
+
+}
+.headerh2{
+    position: relative;
+    top: 100px;
+    
+}
+
+
+.header p {
+    font-size: x-small;
+}
+
+.login-area {
+    text-align: center;
+    padding: 50px 50px 30px 50px;
+}
+
+.username,
+.password {
+    width: 100%;
+    text-align: center;
+    padding: 13px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgba(10, 46, 114, 0.5);
+    margin-bottom: 15px;
+    transition: .5s;
+}
+
+.username::placeholder,
+.password::placeholder {
+    color: rgba(255, 255, 255, .7);
+}
+
+.username:focus,
+.password:focus {
+    background-color: #0a1d72b3;
+}
+
+.submit {
+    width: 100px;
+    padding: 10px;
+    background-color: #0c0a71dc;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+
+.submit:hover {
+    background-color: #040344;
+}
+
+
+a {
+    display: inline-block;
+    font-size: x-small;
+    text-decoration: none;
+    color: #040344;
+    margin-top: 10px;
+}
