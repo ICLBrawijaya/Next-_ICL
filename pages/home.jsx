@@ -4,6 +4,7 @@ import View3d from '../components/Homepage/3D_Lab_View';
 import Footer from '../components/Homepage/footer';
 import Header from '../components/Homepage/header';
 import Moto from '../components/Homepage/moto';
+import Ouractivities from '../components/Homepage/ouractivities';
 
 export default function homepage() {
     return (
@@ -13,6 +14,7 @@ export default function homepage() {
         <Videoprofile/>
         <Asistenslide/>
         <View3d/>
+        <Ouractivities/>
         <Footer/>
       </div>
     

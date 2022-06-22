@@ -3,7 +3,7 @@ export default function video_profile() {
     return (
         <>
         <div className={`d-lg-block p-2 ${styles.BackgroundProfile}`} >
-            <h1 className={`py-3 text-center ${styles.tulisan_video}`}>VIDEO PROFILE</h1>
+            <h1 className={`py-3 text-center ${styles.tulisan_video}`}>Video Profile</h1>
             <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active p-3" data-bs-interval="99999999999999">
