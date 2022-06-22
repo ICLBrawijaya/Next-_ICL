@@ -2,7 +2,7 @@ import styles from '../../styles/header.module.css';
 export default function header() {
     return (
     <>
-    <nav className={` navbar  navbar-expand-lg navbar-light  fixed-top  ${styles.navbar}`}>
+    <nav className={` navbar  navbar-expand-lg navbar-light  fixed-top  ${styles.navbar} `}>
         
         <div className={`container-fluid  ${styles.container_fluid}`}>
             <span className={styles.logo}>

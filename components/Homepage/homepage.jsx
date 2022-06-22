@@ -10,7 +10,7 @@ export default function homepage() {
 
     const asisten=[
         {"ID":1, 
-            "divisi":"Coordinator Assistant", 
+            "divisi":"Coordinator Assistanttt", 
             "Anggota":[
                 {"Nama":"Rizkianuri Rahmani","Photo":"https://drive.google.com/uc?export=view&id=1AeEOKR5BopeqWi8RiZNoQAHM4SvfyU_4","Angkatan":2019,"Email":"ss","NOHP": "+62" }],
             "deskripsi_1": "RND Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis dolorum laudantium, facere excepturi  officiis voluptates. Quod culpa optio velit sint voluptatum, illo suscipit dolores, esse possimus  eius  sit, doloremque vel?",
@@ -80,7 +80,7 @@ export default function homepage() {
         <>
             <div className={`row g-0 p-4 ${styles.ContainerAsisten}`}>
                 <div  className={`col-sm-6 col-md-5`}  >
-                    <h1 className="text-sm-start">Our Assistant</h1>
+                    <h1 className={`text-sm-start ${styles.teks} `}>Our Assistant</h1>
                     <p>{asisten[ID-1].deskripsi_1}</p>
 
                         <h6></h6>
@@ -101,6 +101,7 @@ export default function homepage() {
                                 className= "btn-preview-asisten btn-sm rounded-5 btn-outline-dark m-1 p-1"
                                 // size="lg"
                             >
+                            {console.log(radio.ID)}
                                 {radio.divisi}
                             </ToggleButton>))}
                         

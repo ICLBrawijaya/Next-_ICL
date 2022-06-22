@@ -1,5 +1,5 @@
 .ContainerAsisten {
-    background-color: aliceblue;
+    background-color: white;
 }
 
 .ContainerAsistenLeft {
@@ -9,6 +9,10 @@
 
 }
 
+.teks{
+    font-family: 'Lexend Deca';
+    font-weight: 900;
+}
 .BtnPreviewAsisten {
     padding: 0.4em;
     margin-right: 0.3em;

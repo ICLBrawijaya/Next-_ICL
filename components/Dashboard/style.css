@@ -126,6 +126,9 @@ background: linear-gradient(0deg, rgb(21, 41, 93, 0.97) 0%, rgb(5, 14, 40, 1) 10
   font-size: 64px;
   font-weight: 900;
   color: #ffb703;
+  position: relative;
+  left: 65%;
+  z-index: 100;
 }
 .teksh2{
   color: #219ebc;

@@ -3,13 +3,13 @@ export default function video_profile() {
     return (
         <>
         <div className={`d-lg-block p-2 ${styles.BackgroundProfile}`} >
-            <h1 className={`py-3 text-light text-center ${styles.tulisan_video}`}><b>VIDEO PROFILE</b></h1>
+            <h1 className={`py-3 text-center ${styles.tulisan_video}`}>VIDEO PROFILE</h1>
             <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active p-3" data-bs-interval="99999999999999">
                         <div className={styles.carouselheight}>
                             <div className={`d-flex ratio ratio-21x9`} >
-                                <iframe width="100%" height="520px" src="https://www.youtube.com/embed/f51KEv1rySI?autoplay=1&mute=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                <iframe width="100%" height="520px" src="https://www.youtube.com/embed/f51KEv1rySI?autoplay=1&mute=0" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
                             <br></br>
                             <div className="carousel-caption d-none d-md-block">

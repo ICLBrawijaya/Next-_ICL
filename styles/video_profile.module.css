@@ -1,9 +1,11 @@
 .carouselheight {
     height: 40%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .BackgroundProfile {
-    background-color: #0A142F;
+    background-color: white;
 }
 
 .auto {
@@ -13,5 +15,8 @@
 
 .tulisan_video {
     text-align: center;
-    font-family: 'Optima';
+    font-family: 'lexend Deca',sans-serif;
+    color: black;
+    font-weight: 900;
+    
 }

@@ -11,8 +11,8 @@ export default function homepage() {
         <Header/>
         <Moto/>
         <Videoprofile/>
-        <View3d/>
         <Asistenslide/>
+        <View3d/>
         <Footer/>
       </div>
     
