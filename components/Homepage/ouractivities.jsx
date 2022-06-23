@@ -36,7 +36,7 @@ export default function Ouractivities() {
         // when window width is >= 768px
       }}
         slidesPerView={'auto'}
-        spaceBetween={30}
+        spaceBetween={10}
         loop={true}
         loopFillGroupWithBlank={true}
         pagination={{

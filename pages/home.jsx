@@ -5,6 +5,7 @@ import Footer from '../components/Homepage/footer';
 import Header from '../components/Homepage/header';
 import Moto from '../components/Homepage/moto';
 import Ouractivities from '../components/Homepage/ouractivities';
+import Blog from '../components/Homepage/blog';
 
 export default function homepage() {
     return (
@@ -15,6 +16,7 @@ export default function homepage() {
         <Asistenslide/>
         <View3d/>
         <Ouractivities/>
+        <Blog/>
         <Footer/>
       </div>
     

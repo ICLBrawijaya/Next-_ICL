@@ -1,0 +1,68 @@
+.containerblog{
+    padding: 3vh 6vw;
+    }
+    .containerblog p{
+      margin-bottom: 1vh;
+    }
+    .containerblog h1{
+      font-family: 'lexend deca';
+      font-weight: 900;
+    }
+    .konten{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5vh;
+    }
+    .thumbnail{
+      width: 30%;
+      padding: 2% 2% 2% 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .thumbnail img{
+      width: 100%;
+      max-height: 100%;
+    }
+    .preview{
+      width: 65%;
+    }
+    
+    .preview h3{
+      margin-top: 1em;
+      font-size: 1.2vw;
+      font-weight: 600;
+    }
+    
+    .preview h1{
+      font-size: 2vw;
+      font-weight: 600;
+    }
+    .preview p{
+      text-align: justify;
+    }
+    .containerblog a{
+        font-size: 1.5vw;
+    }
+    .containerblog a:hover{
+    color: #007bff;
+    }
+
+    @media(max-width : 900px){
+        .preview{
+            width: 60%;
+        }
+        .thumbnail{
+            width: 35%;
+        }
+        .preview h3{
+            font-size: 1.5vw;
+        }
+    }
+
+    @media (max-width : 868px){
+        .preview {
+            font-size: 1.7vw;
+        }
+    }
